@@ -1,0 +1,107 @@
+// Mock employee data (12 samples)
+// Status values: "present" | "leave" | "absent"
+
+export const EMPLOYEES = [
+  {
+    id: "EMP-1001",
+    name: "Ipsha Adhikary",
+    department: "AI & ML",
+    designation: "Software Engineer",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=47",
+  },
+  {
+    id: "EMP-1002",
+    name: "Aarav Sharma",
+    department: "Engineering",
+    designation: "Frontend Developer",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=12",
+  },
+  {
+    id: "EMP-1003",
+    name: "Meera Nair",
+    department: "Design",
+    designation: "Product Designer",
+    status: "leave",
+    avatar: "https://i.pravatar.cc/150?img=32",
+  },
+  {
+    id: "EMP-1004",
+    name: "Rohan Verma",
+    department: "Data Science",
+    designation: "Data Analyst",
+    status: "absent",
+    avatar: "https://i.pravatar.cc/150?img=15",
+  },
+  {
+    id: "EMP-1005",
+    name: "Sara Khan",
+    department: "Human Resources",
+    designation: "HR Manager",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=45",
+  },
+  {
+    id: "EMP-1006",
+    name: "Dev Patel",
+    department: "Engineering",
+    designation: "Backend Developer",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=51",
+  },
+  {
+    id: "EMP-1007",
+    name: "Ananya Rao",
+    department: "AI & ML",
+    designation: "ML Engineer",
+    status: "leave",
+    avatar: "https://i.pravatar.cc/150?img=20",
+  },
+  {
+    id: "EMP-1008",
+    name: "Kabir Singh",
+    department: "Marketing",
+    designation: "Growth Lead",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=13",
+  },
+  {
+    id: "EMP-1009",
+    name: "Priya Menon",
+    department: "Finance",
+    designation: "Financial Analyst",
+    status: "absent",
+    avatar: "https://i.pravatar.cc/150?img=25",
+  },
+  {
+    id: "EMP-1010",
+    name: "Arjun Reddy",
+    department: "Engineering",
+    designation: "DevOps Engineer",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=59",
+  },
+  {
+    id: "EMP-1011",
+    name: "Nisha Gupta",
+    department: "Design",
+    designation: "UX Researcher",
+    status: "present",
+    avatar: "https://i.pravatar.cc/150?img=44",
+  },
+  {
+    id: "EMP-1012",
+    name: "Vikram Iyer",
+    department: "Data Science",
+    designation: "Data Engineer",
+    status: "leave",
+    avatar: "https://i.pravatar.cc/150?img=68",
+  },
+];
+
+export const STATUS_CONFIG = {
+  present: { label: "Present", dot: "bg-emerald-500", ring: "ring-emerald-500/20", text: "text-emerald-600" },
+  leave: { label: "On Leave", dot: "bg-amber-400", ring: "ring-amber-400/20", text: "text-amber-600" },
+  absent: { label: "Absent", dot: "bg-rose-500", ring: "ring-rose-500/20", text: "text-rose-600" },
+};
