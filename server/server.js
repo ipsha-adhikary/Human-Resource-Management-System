@@ -39,6 +39,11 @@ app.use(
     require("./routes/dashboardRoutes")
 );
 
+app.use(
+    "/api/members",
+    require("./routes/memberRoutes")
+);
+
 app.get("/ping", (req, res) => {
     res.send("pong");
 });
