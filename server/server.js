@@ -34,6 +34,11 @@ app.use(
     require("./routes/payrollRoutes")
 );
 
+app.use(
+    "/api/dashboard",
+    require("./routes/dashboardRoutes")
+);
+
 app.get("/ping", (req, res) => {
     res.send("pong");
 });
